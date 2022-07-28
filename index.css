@@ -1,0 +1,170 @@
+.head{
+    box-shadow: 1px 1px rgb(231, 231, 231);
+}
+.header, ul, li{
+display: flex;
+
+}
+.headitem{
+    padding-top: 50px;
+    padding-left: 170px;
+    color: gray;
+    
+}
+
+.headitem:hover{
+ transition: all 1s;
+ color: #000;
+ text-decoration: underline 2px solid blue;
+}
+.headbtn{
+    padding-top: 10px;
+    padding-left: 200px;  
+}
+#btn{
+    height: 60px;
+    width: 180px;
+    background-color: pink;
+    border-radius: 20px;
+    border: pink;
+    color: blue;
+}
+
+
+
+h1{
+    font-size: 62px;
+}
+
+
+
+.dot{
+ width: 10px;
+ height: 10px;
+ background-color: #8071D0;  
+ display: inline-block;
+}
+
+.main{
+    /* padding-top: 20px; */
+    padding: 30px 150px;
+    display: flex;
+    margin: auto;
+    display: inline-block;
+}
+
+#btn2{
+    height: 60px;
+    width: 180px;
+    background-color: blue;
+    border-radius: 20px;
+    border: blue;
+    color: white;
+}
+
+
+.arrow{
+    display: flex;
+}
+
+
+.updown{
+    padding: 10px;
+}
+
+.tick1{
+    width: 20px;
+    height: 5px;
+    background-color: pink;
+    border-radius: 4px;
+    /* padding-bottom: 5px; */
+    /* padding-top: 5px; */
+}
+
+.tick2{
+    width: 20px;
+    height: 5px;
+    background-color: red;
+    border-radius: 4px;
+    /* padding-bottom: 5px; */
+}
+
+.tick3{
+    width: 20px;
+    height: 5px;
+    background-color: green;
+    border-radius: 4px;
+    /* padding-bottom: 5px; */
+}
+
+.tick4{
+    width: 20px;
+    height: 5px;
+    background-color: orange;
+    border-radius: 4px;
+    
+}
+ 
+.card1{
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: rgb(236, 231, 231);
+    color: gray;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 2px gray;
+}
+
+.card2{
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: rgb(236, 231, 231);
+    color: gray;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 2px gray;
+}
+
+.card3{
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: rgb(236, 231, 231);
+    color: gray;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 2px gray;
+}
+
+.card4{
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: rgb(236, 231, 231);
+    color: gray;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 2px gray;
+}
+
+.card:hover{
+    color: black;
+    background-color: white;
+    /* background-image: url("image\tick-blue.png"); */
+   
+}
+ .changeimg:hover{
+   background-image: url("image\tick-blue.png");
+ }
+
+ .main-content{
+    display: flex;
+    padding-top: 10px;
+ }
+
+ .div-image{
+    padding-top: 100px;
+    padding-right: 100px;
+ }
